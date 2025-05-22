@@ -1,0 +1,234 @@
+.skeptical1 {
+    width: auto;
+    background-color: rgb(26, 148, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.strtop1 {
+    width: 400px;
+    height: 200px;
+    margin: 20px 0px;
+    border: 3px solid #999;
+    background-image: url('蓝天白云.jpg');
+    background-size: cover;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    border: 3px solid #47e6ef;
+}
+.strtop2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-image: url('./头像.webp');
+    background-size: cover;
+    margin-top: 150px;
+    border: 3px solid #52eff5;
+    display: flex;
+    justify-content: center;
+    animation: zhuan 10s infinite linear;
+}
+@keyframes zhuan{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.strtop1  span{
+    position: relative;
+    top: 100px;
+    color: rgb(21, 226, 241);
+    font-family: 楷体;
+}
+
+.hygl{
+    width: 1000px;
+    margin: 20px auto;
+}
+.hygl td{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(66, 220, 166);
+    border-radius: 30px;
+}
+.hygl tr td span{
+    display: inline-block;
+    background-color: #288eed;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin: auto;
+    color: #52eff5;
+    animation: zhuan 2s infinite linear;
+}
+.ssl {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.luo2 {
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    border: none;
+}
+
+.luo2 .input1 {
+    flex: 1;
+    height: 50px;
+    line-height: 50px;
+    outline: none;
+    box-sizing: border-box;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 20px;
+}
+
+.luo2 .button1 {
+    border: none;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    font: 30px;
+    color: aliceblue;
+    background-color: rgb(34, 149, 216);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.skeptical2 {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skeptical2 a {
+    font-size: 40px;
+    font-family: 楷体;
+    color: blue;
+    text-decoration: none;
+}
+
+.last{
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 100px rgb(9, 112, 231);
+}
+.last1{
+    flex: 0.7;
+    background-color:#93ef47;
+}
+.laspo1{
+    width: 170px;
+    height: 210px;
+    background-color: #06dd92;
+    margin: auto;
+}
+.laspo1 form input{
+    border: none;
+    background-color: #3b5fd500;
+    outline: none;
+}
+.laspo1 form input:hover{
+    border-bottom: 2px solid #3b5fd5;
+}
+.laspo1 form select{
+    border: none;
+    background: none;
+    color: rgb(25, 80, 244);
+    outline: none;
+}
+.laspo1 form button{
+    background-color: #3b5fd5;
+    border: none;
+    margin-left: 37px;
+}
+.laspo2{
+    width: 100px;
+    margin: auto;
+}
+.laspo2 ol{
+    list-style: none;
+    color: blue;
+}
+
+.last2{
+    flex: 2.3;
+    background-color:#3b5fd5;
+    width: 100px;
+}
+.last2 ul{
+    display: block;
+}
+.last2 ul li{
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    background-color: #06dd92;
+    margin: 25px 40px;
+}
+.last2 ul .li1{
+    background-image: url(https://img2.baidu.com/it/u=2739125052,1022080471&fm=253&fmt=auto&app=138&f=JPEG?w=608&h=340);
+    background-size: cover;
+}
+.last2 ul .li2{
+    background-image: url(https://img0.baidu.com/it/u=2754138070,1033082991&fm=253&fmt=auto&app=120&f=JPEG?w=1451&h=760);
+    background-size: cover;
+}
+.last2 ul .li3{
+    background-image: url(https://img0.baidu.com/it/u=3258677083,710989788&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500);
+    background-size: cover;
+}
+.last2 ul .li4{
+    background-image: url(https://img0.baidu.com/it/u=3252509197,2375597856&fm=253&fmt=auto&app=138&f=GIF?w=602&h=310);
+    background-size: cover;
+}
+.bg{
+    width: 700px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.table1{
+    border: 3px solid #1035b0;
+    text-align: center;
+    border-collapse: collapse;
+}
+.table1 tr{
+    width: 400px;
+    height: 50px;
+    border: 3px solid #1035b0;
+}
+.table1 td{
+    width: 400px;
+    height: 50px;
+    border: 3px solid #1035b0;
+}
+.j{
+    height: 70px;
+    width: 70px;
+    background-color: #0a0b0b;
+    position: fixed;
+    z-index: 1;
+    right: 20px;
+}
